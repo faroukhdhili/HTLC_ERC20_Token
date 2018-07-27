@@ -4,7 +4,7 @@ pragma solidity ^0.4.16;
 
       contract ERC20 {
       
-      function getBalanceOf(address _who )public view returns (uint256 balance);
+     function balanceOf(address _who )public view returns (uint256 balance);
       function transfer(address _to, uint256 _value) public;
          
     
